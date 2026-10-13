@@ -16,11 +16,17 @@ Android apps run in a sandbox, and permissions protect restricted data and actio
 
 Resource: Permissions on Android - https://developer.android.com/guide/topics/permissions/overview
 ## Networking
+DNS over HTTPS (DoH) sends DNS queries and responses inside HTTPS, so they get TLS protection for confidentiality and integrity. It protects users from passive surveillance and from on-path devices that tamper with or divert DNS traffic to rogue servers. It does not hide queries from the DoH server itself, and the client's IP address and HTTP details can still be used to correlate requests. It also does not replace DNSSEC.
 
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484
 ## Cybersecurity
+Phishing-resistant authentication is designed so a fake website cannot capture something an attacker can reuse. CISA says FIDO/WebAuthn is the most widely available option, and PKI-based MFA, such as smart cards, also qualifies. SMS or voice codes, app-based codes and push approvals do not qualify, because attackers can intercept them or trick users. Number matching is only an interim mitigation.
 
+Resource: Implementing Phishing-Resistant MFA (CISA fact sheet) - https://www.cisa.gov/sites/default/files/publications/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf
 ## Data
+Under Royal Decree 6/2022, the authority, as controller, needs the data subject's explicit, provable consent, with a clear request naming the controller, the purpose and how to contact the data protection officer (Article 10). It must appoint that officer (20), set risk controls and security measures (13), keep data confidential (21), erase it when its purpose ends (15), and report breaches to the ministry and the person (19).
 
+Resource: Royal Decree 6/2022 Issuing the Personal Data Protection Law (Consolidated) - https://decree.om/2022/l20220006/
 ## Misconception in My Track
 
 ## Open Question
