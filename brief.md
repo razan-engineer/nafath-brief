@@ -28,5 +28,6 @@ Under Royal Decree 6/2022, the authority, as controller, needs the data subject'
 
 Resource: Royal Decree 6/2022 Issuing the Personal Data Protection Law (Consolidated) - https://decree.om/2022/l20220006/
 ## Misconception in My Track
-
+Common wrong belief: DoH makes browsing anonymous, so nobody can see which sites a user visits. Correct version: DoH only encrypts DNS between the client and the DoH server, which protects against on-path eavesdropping and tampering. The DoH server still sees every query, and the client's IP address can be used to correlate requests. RFC 8484 supports this in Section 8.2 (In the Server), which says the client address provides obvious correlation information.
 ## Open Question
+Does Article 3(b) of the Personal Data Protection Law exempt a government authority's login service, and which policy would apply to it instead?
